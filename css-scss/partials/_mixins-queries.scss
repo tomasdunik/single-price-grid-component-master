@@ -3,7 +3,7 @@
     size: rem(20px);
     weight: 700;
   }
-  letter-spacing: rem(-0.3px);
+  letter-spacing: -0.01875em;
 }
 
 @mixin h2 {
@@ -11,7 +11,7 @@
     size: rem(15px);
     weight: 700;
   }
-  letter-spacing: rem(-0.22px);
+  letter-spacing: -0.01375em;
 }
 
 @mixin pRegular {
@@ -19,6 +19,6 @@
     size: rem(14px);
     weight: 400;
   }
-  letter-spacing: rem(-0.2px);
+  letter-spacing: -0.0125em;
   line-height: lineHeight(26, 14);
 }

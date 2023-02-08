@@ -1,23 +1,9 @@
-// @mixin regularText {
-//   font-size: $font-size-main;
-//   font-weight: 700;
-//   letter-spacing: 0.013rem;
-// }
-
-// @mixin bigText {
-//   font: {
-//     size: 45px;
-//     weight: bold;
-//     family: Verdana, Geneva, Tahoma, sans-serif;
-//   }
-// }
-
 @mixin h1 {
   font: {
     size: rem(24px);
     weight: 700;
   }
-  letter-spacing: rem(-0.3px);
+  letter-spacing: -0.0125em;
 }
 
 @mixin h2 {
@@ -25,7 +11,7 @@
     size: rem(18px);
     weight: 700;
   }
-  letter-spacing: rem(-0.22px);
+  letter-spacing: -0.01375em;
 }
 
 @mixin pRegular {
@@ -33,6 +19,6 @@
     size: rem(16px);
     weight: 400;
   }
-  letter-spacing: rem(-0.2px);
+  letter-spacing: -0.0125em;
   line-height: lineHeight(26, 16);
 }

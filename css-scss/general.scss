@@ -1,6 +1,6 @@
 @import "./partials/functions", "./partials/mixins", "./partials/variables";
 
-// *** General ***
+// ==================== General ====================
 * {
   box-sizing: border-box;
   font-family: "Karla", sans-serif;
@@ -11,20 +11,20 @@
 body {
   background-color: $color-light-gray;
   display: grid;
-  place-content: center;
   line-height: 1;
+  place-content: center;
 }
 
 .container {
-  border-radius: 8px;
-  width: rem(635px);
   background-color: #fff;
-  margin-top: rem(198px);
+  border-radius: 8px;
   margin-bottom: rem(127px);
+  margin-top: rem(198px);
   overflow: hidden;
+  width: rem(635px);
 }
 
-// *** Elements ***
+// ==================== Header ====================
 .header {
   padding: rem(43px) rem(40px) rem(40px);
 }
@@ -46,6 +46,7 @@ body {
   padding-top: rem(13px);
 }
 
+// ==================== Footer ====================
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -63,8 +64,8 @@ body {
 }
 
 .footer_subscription_price {
-  display: flex;
   align-items: center;
+  display: flex;
   padding-top: rem(23px);
 }
 
@@ -89,19 +90,18 @@ body {
 }
 
 .footer_subscription_a-button {
-  color: #fff;
+  background-color: $color-bright-yellow;
   border-radius: 5px;
   box-shadow: 0 4px 4px rgba($color: #000000, $alpha: 0.25);
+  color: #fff;
   display: block;
-  background-color: $color-bright-yellow;
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: -0.0125em;
+  line-height: rem(48px);
   margin-top: rem(27px);
   text-align: center;
   text-decoration: none;
-  // width: 237px;
-  line-height: rem(48px);
 }
 
 .footer_subscription_a-button:hover {
@@ -116,7 +116,6 @@ body {
 .footer_why-us {
   background-color: $color-cyan;
   opacity: 0.85;
-  // width: 318px;
   padding: rem(41px) rem(40px);
 }
 
@@ -130,7 +129,7 @@ body {
   font-size: rem(14px);
   letter-spacing: -0.010625em;
   line-height: lineHeight(20, 14);
+  list-style: none;
   opacity: 0.75;
   padding-top: rem(20px);
-  list-style: none;
 }
