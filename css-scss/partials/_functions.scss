@@ -1,0 +1,7 @@
+@function lineHeight($lineHeightPx, $fontSize) {
+  @return ($lineHeightPx / $fontSize);
+}
+
+@function rem($pixels, $basicValue: 16px) {
+  @return ($pixels / $basicValue) * 1rem;
+}

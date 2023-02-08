@@ -1,0 +1,127 @@
+@media (max-width: 660px) {
+  body {
+    background-color: #e5eff5;
+    display: grid;
+    place-content: center;
+    line-height: 1;
+  }
+  .container {
+    border-radius: 5px;
+    width: 18.8125rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3.875rem;
+  }
+  .header {
+    padding: 1.75rem 1.5rem 1.9375rem;
+  }
+  .header_h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.01875rem;
+    color: #2ab2af;
+  }
+  .header_h2 {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: -0.01375rem;
+    color: #c0df34;
+    line-height: 1.3333333333;
+    padding-top: 1.625rem;
+  }
+  .header_p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: -0.0125rem;
+    line-height: 1.8571428571;
+    color: #98a6bd;
+    padding-top: 1.125rem;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  .footer_subscription {
+    background-color: #2ab2af;
+    padding: 1.5625rem 1.5rem;
+  }
+  .footer_subscription_h2 {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: -0.01375rem;
+    font-size: 18px;
+    color: #e5eff5;
+  }
+  .footer_subscription_price {
+    display: flex;
+    align-items: center;
+    padding-top: 1.375rem;
+  }
+  .footer_subscription_price_p-dollar {
+    color: #e5eff5;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -0.025em;
+  }
+  .footer_subscription_price_p-per-month {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: -0.0125rem;
+    line-height: 1.8571428571;
+    color: #e5eff5;
+    font-size: 1rem;
+    opacity: 0.5;
+    padding-left: 0.9rem;
+  }
+  .footer_subscription_p {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: -0.0125rem;
+    line-height: 1.8571428571;
+    color: #e5eff5;
+    font-size: 1rem;
+    padding-top: 0.3125rem;
+  }
+  .footer_subscription_a-button {
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    background-color: #c0df34;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.0125em;
+    margin-top: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    line-height: 3rem;
+  }
+  .footer_subscription_a-button:hover {
+    background-color: #e5eff5;
+    color: #2ab2af;
+  }
+  .footer_subscription_a-button:focus {
+    outline: transparent;
+  }
+  .footer_why-us {
+    background-color: #2ab2af;
+    opacity: 0.85;
+    padding: 1.5625rem 1.5rem;
+  }
+  .footer_why-us_h2 {
+    font-size: 0.9375rem;
+    font-weight: 700;
+    letter-spacing: -0.01375rem;
+    font-size: 18px;
+    color: #e5eff5;
+  }
+  .footer_why-us_ul {
+    color: #fff;
+    font-size: 0.875rem;
+    letter-spacing: -0.010625em;
+    line-height: 1.4285714286;
+    opacity: 0.75;
+    padding-top: 1.25rem;
+    list-style: none;
+  }
+}/*# sourceMappingURL=queries.css.map */

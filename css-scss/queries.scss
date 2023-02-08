@@ -1,0 +1,143 @@
+@import "./partials/functions", "./partials/mixins-queries",
+  "./partials/variables";
+
+// *** General ***
+// * {
+//   box-sizing: border-box;
+//   font-family: "Karla", sans-serif;
+//   margin: 0;
+//   padding: 0;
+// }
+@media (max-width: 660px) {
+  body {
+    background-color: $color-light-gray;
+    display: grid;
+    place-content: center;
+    line-height: 1;
+  }
+
+  .container {
+    border-radius: 5px;
+    width: rem(301px);
+    // background-color: #fff;
+    margin-top: rem(72px);
+    margin-bottom: rem(62px);
+    // overflow: hidden;
+  }
+
+  // *** Elements ***
+  .header {
+    padding: rem(28px) rem(24px) rem(31px);
+  }
+
+  .header_h1 {
+    @include h1;
+    color: $color-cyan;
+  }
+
+  .header_h2 {
+    @include h2;
+    color: $color-bright-yellow;
+    line-height: lineHeight(20, 15);
+    padding-top: rem(26px);
+  }
+
+  .header_p {
+    @include pRegular;
+    color: $color-grayish-blue;
+    padding-top: rem(18px);
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .footer_subscription {
+    background-color: $color-cyan;
+    padding: rem(25px) rem(24px);
+  }
+
+  .footer_subscription_h2 {
+    @include h2;
+    font-size: 18px;
+    color: $color-light-gray;
+  }
+
+  .footer_subscription_price {
+    display: flex;
+    align-items: center;
+    padding-top: rem(22px);
+  }
+
+  .footer_subscription_price_p-dollar {
+    color: $color-light-gray;
+    font-size: rem(32px);
+    font-weight: bold;
+    letter-spacing: -0.025em;
+  }
+
+  .footer_subscription_price_p-per-month {
+    @include pRegular;
+    color: $color-light-gray;
+    font-size: 1rem;
+    opacity: 0.5;
+    padding-left: 0.9rem;
+  }
+
+  .footer_subscription_p {
+    @include pRegular;
+    color: $color-light-gray;
+    font-size: 1rem;
+    padding-top: rem(5px);
+  }
+
+  .footer_subscription_a-button {
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba($color: #000000, $alpha: 0.1);
+    display: block;
+    background-color: $color-bright-yellow;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -0.0125em;
+    margin-top: rem(24px);
+    text-align: center;
+    text-decoration: none;
+    // width: 237px;
+    line-height: rem(48px);
+  }
+
+  .footer_subscription_a-button:hover {
+    background-color: $color-light-gray;
+    color: $color-cyan;
+  }
+
+  .footer_subscription_a-button:focus {
+    outline: transparent;
+  }
+
+  .footer_why-us {
+    background-color: $color-cyan;
+    opacity: 0.85;
+    // width: 318px;
+    padding: rem(25px) rem(24px);
+  }
+
+  .footer_why-us_h2 {
+    @include h2;
+    font-size: 18px;
+    color: $color-light-gray;
+  }
+
+  .footer_why-us_ul {
+    color: #fff;
+    font-size: rem(14px);
+    letter-spacing: -0.010625em;
+    line-height: lineHeight(20, 14);
+    opacity: 0.75;
+    padding-top: rem(20px);
+    list-style: none;
+  }
+}

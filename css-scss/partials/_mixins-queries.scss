@@ -1,0 +1,24 @@
+@mixin h1 {
+  font: {
+    size: rem(20px);
+    weight: 700;
+  }
+  letter-spacing: rem(-0.3px);
+}
+
+@mixin h2 {
+  font: {
+    size: rem(15px);
+    weight: 700;
+  }
+  letter-spacing: rem(-0.22px);
+}
+
+@mixin pRegular {
+  font: {
+    size: rem(14px);
+    weight: 400;
+  }
+  letter-spacing: rem(-0.2px);
+  line-height: lineHeight(26, 14);
+}
