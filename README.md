@@ -8,7 +8,7 @@ Tento projekt je zo stránky Frontend Mentor ([Single price grid component](http
 
 Tento projekt som vytvoril pomocou HTML, CSS a SCSS. Snažil som sa precvičiť si SCSS, tak som ho používal aj v prípadoch, kedy to nebolo úplne potrebné.
 
-#### [Odkaz na hotovu stránku](https://tomasdunik.github.io/frontend-mentor__single-price-grid-component/)
+#### [Odkaz na hotovu stránku](https://tomasdunik.github.io/frontend-mentor-06-single-price-grid-component/)
 
 ## 📸 Screenshots
 
@@ -23,4 +23,4 @@ Tento projekt som vytvoril pomocou HTML, CSS a SCSS. Snažil som sa precvičiť 
 ## 🔗 Odkazy
 
 - [Môj projekt na stránke Frontend Mentor](https://www.frontendmentor.io/solutions/my-version-single-price-grid-component-wRggEtnP0e)
-- [Moje ostatné projekty na stránke Frontend Mentor](https://www.frontendmentor.io/profile/WeekendsProgrammer)
+- [Moje ostatné projekty na stránke Frontend Mentor](https://www.frontendmentor.io/profile/tomasdunik)
